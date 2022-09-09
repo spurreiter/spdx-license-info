@@ -40,7 +40,7 @@ see [`types.d.ts`](./types.d.ts) for attribute definitions.
 The project is in its infancy. Not for all licenses the full license info and its 
 (desired) attributes are available.
 
-Please edit `scripts/licenseInfo.js` after reading the license under the provided url 
+Please edit `data/licenseInfo.js` after reading the license under the provided url 
 and attribute the license info.
 
 The final file is generated with `npm run build`.  
