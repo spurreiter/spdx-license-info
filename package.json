@@ -1,0 +1,45 @@
+{
+  "name": "spdx-license-info",
+  "version": "1.0.0-0",
+  "description": "spdx license info",
+  "keywords": [
+    "spdx",
+    "licenses",
+    "license-info",
+    "license-terms"
+  ],
+  "homepage": "https://github.com/spurreiter/spdx-license-info#readme",
+  "bugs": {
+    "url": "https://github.com/spurreiter/spdx-license-info/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spurreiter/spdx-license-info.git"
+  },
+  "license": "Unlicense",
+  "author": "spurreiter",
+  "type": "module",
+  "main": "index.js",
+  "types": "types.d.ts",
+  "files": [
+    "*.js",
+    "*.json",
+    "*.d.ts"
+  ],
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "clean": "rm -rf assets/license-list-XML",
+    "lint": "eslint --ext .js .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "glob": "^8.0.3",
+    "xml-vs-js": "^2.1.0"
+  }
+}
