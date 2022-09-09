@@ -33,7 +33,7 @@ console.log(licenseIds.Unlicense)
 //> }
 ```
 
-see [`src/types.d.ts`](src/types.d.ts) for attribute definitions.
+see [`types.d.ts`](./types.d.ts) for attribute definitions.
 
 ## contributing
 
