@@ -17,35 +17,35 @@ export const licenseIds = {
   AAL: {
     spdx: 'AAL',
     name: 'Attribution Assurance License',
-    preserveCopyright: true,
+    attribution: true,
     isOsiApproved: true,
     url: 'https://opensource.org/licenses/attribution'
   },
   Abstyles: {
     spdx: 'Abstyles',
     name: 'Abstyles License',
-    preserveCopyright: true,
+    attribution: true,
     isOsiApproved: false,
     url: 'https://fedoraproject.org/wiki/Licensing/Abstyles'
   },
   'Adobe-2006': {
     spdx: 'Adobe-2006',
     name: 'Adobe Systems Incorporated Source Code License Agreement',
-    preserveCopyright: false,
+    attribution: false,
     isOsiApproved: false,
     url: 'https://fedoraproject.org/wiki/Licensing/AdobeLicense'
   },
   'Adobe-Glyph': {
     spdx: 'Adobe-Glyph',
     name: 'Adobe Glyph List License',
-    preserveCopyright: true,
+    attribution: true,
     isOsiApproved: false,
     url: 'https://fedoraproject.org/wiki/Licensing/MIT#AdobeGlyph'
   },
   ADSL: {
     spdx: 'ADSL',
     name: 'Amazon Digital Services License',
-    preserveCopyright: true,
+    attribution: true,
     isOsiApproved: false,
     url: 'https://fedoraproject.org/wiki/Licensing/AmazonDigitalServicesLicense'
   },
@@ -76,7 +76,7 @@ export const licenseIds = {
   'AFL-3.0': {
     spdx: 'AFL-3.0',
     name: 'Academic Free License v3.0',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -111,6 +111,10 @@ export const licenseIds = {
     isOsiApproved: false,
     isDeprecated: true,
     deprecatedVersion: '3.1',
+    obsoletedBy: [
+      'AGPL-1.0-only',
+      'AGPL-1.0-or-later'
+    ],
     url: 'http://www.affero.org/oagpl.html'
   },
   'AGPL-3.0-only': {
@@ -122,7 +126,7 @@ export const licenseIds = {
   'AGPL-3.0-or-later': {
     spdx: 'AGPL-3.0-or-later',
     name: 'GNU Affero General Public License v3.0 or later',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'copyleft',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -133,7 +137,7 @@ export const licenseIds = {
   'AGPL-3.0': {
     spdx: 'AGPL-3.0',
     name: 'GNU Affero General Public License v3.0',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'copyleft',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -142,6 +146,10 @@ export const licenseIds = {
     isOsiApproved: true,
     isDeprecated: true,
     deprecatedVersion: '3.0',
+    obsoletedBy: [
+      'AGPL-3.0-only',
+      'AGPL-3.0-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/agpl.txt'
   },
   Aladdin: {
@@ -196,7 +204,7 @@ export const licenseIds = {
   'Apache-2.0': {
     spdx: 'Apache-2.0',
     name: 'Apache License 2.0',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -248,7 +256,7 @@ export const licenseIds = {
   'APSL-2.0': {
     spdx: 'APSL-2.0',
     name: 'Apple Public Source License 2.0',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     modification: 'limited',
     isOsiApproved: true,
@@ -282,7 +290,7 @@ export const licenseIds = {
   'Artistic-2.0': {
     spdx: 'Artistic-2.0',
     name: 'Artistic License 2.0',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'restricted',
     distribution: 'restricted',
     modification: 'restricted',
@@ -316,7 +324,7 @@ export const licenseIds = {
   Beerware: {
     spdx: 'Beerware',
     name: 'Beerware License',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -375,7 +383,7 @@ export const licenseIds = {
   'BSD-2-Clause-FreeBSD': {
     spdx: 'BSD-2-Clause-FreeBSD',
     name: 'BSD 2-Clause FreeBSD License',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -395,6 +403,9 @@ export const licenseIds = {
     isOsiApproved: false,
     isDeprecated: true,
     deprecatedVersion: '3.9',
+    obsoletedBy: [
+      'BSD-2-Clause'
+    ],
     url: 'http://www.netbsd.org/about/redistribution.html#default'
   },
   'BSD-2-Clause-Patent': {
@@ -414,7 +425,7 @@ export const licenseIds = {
   'BSD-2-Clause': {
     spdx: 'BSD-2-Clause',
     name: 'BSD 2-Clause "Simplified" License',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -486,7 +497,7 @@ export const licenseIds = {
   'BSD-3-Clause': {
     spdx: 'BSD-3-Clause',
     name: 'BSD 3-Clause "New" or "Revised" License',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -532,7 +543,7 @@ export const licenseIds = {
   'BSL-1.0': {
     spdx: 'BSL-1.0',
     name: 'Boost Software License 1.0',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -660,7 +671,7 @@ export const licenseIds = {
   'CC-BY-3.0': {
     spdx: 'CC-BY-3.0',
     name: 'Creative Commons Attribution 3.0 Unported',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -674,7 +685,7 @@ export const licenseIds = {
   'CC-BY-4.0': {
     spdx: 'CC-BY-4.0',
     name: 'Creative Commons Attribution 4.0 International',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -713,7 +724,7 @@ export const licenseIds = {
   'CC-BY-NC-3.0': {
     spdx: 'CC-BY-NC-3.0',
     name: 'Creative Commons Attribution Non Commercial 3.0 Unported',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -727,7 +738,7 @@ export const licenseIds = {
   'CC-BY-NC-4.0': {
     spdx: 'CC-BY-NC-4.0',
     name: 'Creative Commons Attribution Non Commercial 4.0 International',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -924,7 +935,7 @@ export const licenseIds = {
   'CC-BY-SA-3.0': {
     spdx: 'CC-BY-SA-3.0',
     name: 'Creative Commons Attribution Share Alike 3.0 Unported',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'copyleft',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -938,7 +949,7 @@ export const licenseIds = {
   'CC-BY-SA-4.0': {
     spdx: 'CC-BY-SA-4.0',
     name: 'Creative Commons Attribution Share Alike 4.0 International',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'copyleft',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -959,7 +970,7 @@ export const licenseIds = {
   'CC0-1.0': {
     spdx: 'CC0-1.0',
     name: 'Creative Commons Zero v1.0 Universal',
-    preserveCopyright: false,
+    attribution: false,
     linking: 'publicdomain',
     distribution: 'publicdomain',
     modification: 'publicdomain',
@@ -974,7 +985,7 @@ export const licenseIds = {
   'CDDL-1.0': {
     spdx: 'CDDL-1.0',
     name: 'Common Development and Distribution License 1.0',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     modification: 'restricted',
     isOsiApproved: true,
@@ -1031,7 +1042,7 @@ export const licenseIds = {
   'CECILL-2.1': {
     spdx: 'CECILL-2.1',
     name: 'CeCILL Free Software License Agreement v2.1',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -1157,7 +1168,7 @@ export const licenseIds = {
   'CPL-1.0': {
     spdx: 'CPL-1.0',
     name: 'Common Public License 1.0',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     modification: 'copyleft',
     isOsiApproved: true,
@@ -1252,7 +1263,7 @@ export const licenseIds = {
   'ECL-1.0': {
     spdx: 'ECL-1.0',
     name: 'Educational Community License v1.0',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     modification: 'permissive',
     isOsiApproved: true,
@@ -1269,6 +1280,9 @@ export const licenseIds = {
     name: 'eCos license version 2.0',
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
+    obsoletedBy: [
+      'GPL-2.0-or-later WITH eCos-exception-2.0'
+    ],
     url: 'https://www.gnu.org/licenses/ecos-license.html'
   },
   'EFL-1.0': {
@@ -1312,7 +1326,7 @@ export const licenseIds = {
   'EPL-1.0': {
     spdx: 'EPL-1.0',
     name: 'Eclipse Public License 1.0',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -1327,7 +1341,7 @@ export const licenseIds = {
   'EPL-2.0': {
     spdx: 'EPL-2.0',
     name: 'Eclipse Public License 2.0',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -1372,7 +1386,7 @@ export const licenseIds = {
   'EUPL-1.2': {
     spdx: 'EUPL-1.2',
     name: 'European Union Public License 1.2',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -1494,6 +1508,10 @@ export const licenseIds = {
     isOsiApproved: false,
     isDeprecated: true,
     deprecatedVersion: '3.0',
+    obsoletedBy: [
+      'GFDL-1.1-only',
+      'GFDL-1.1-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt'
   },
   'GFDL-1.2-invariants-only': {
@@ -1538,6 +1556,10 @@ export const licenseIds = {
     isOsiApproved: false,
     isDeprecated: true,
     deprecatedVersion: '3.0',
+    obsoletedBy: [
+      'GFDL-1.2-only',
+      'GFDL-1.2-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt'
   },
   'GFDL-1.3-invariants-only': {
@@ -1582,6 +1604,10 @@ export const licenseIds = {
     isOsiApproved: false,
     isDeprecated: true,
     deprecatedVersion: '3.0',
+    obsoletedBy: [
+      'GFDL-1.3-only',
+      'GFDL-1.3-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/fdl-1.3.txt'
   },
   Giftware: {
@@ -1639,6 +1665,10 @@ export const licenseIds = {
     isOsiApproved: false,
     isDeprecated: true,
     deprecatedVersion: '3.0',
+    obsoletedBy: [
+      'GPL-1.0-only',
+      'GPL-1.0-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html'
   },
   'GPL-1.0+': {
@@ -1647,6 +1677,9 @@ export const licenseIds = {
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     isOsiApproved: false,
+    obsoletedBy: [
+      'GPL-1.0-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html'
   },
   'GPL-2.0-only': {
@@ -1668,6 +1701,10 @@ export const licenseIds = {
     name: 'GNU General Public License v2.0 w/Autoconf exception',
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
+    obsoletedBy: [
+      'GPL-2.0 WITH Autoconf-exception-2.0',
+      'GPL-2.0-or-later WITH Autoconf-exception-2.0'
+    ],
     url: 'http://ac-archive.sourceforge.net/doc/copyright.html'
   },
   'GPL-2.0-with-bison-exception': {
@@ -1675,6 +1712,10 @@ export const licenseIds = {
     name: 'GNU General Public License v2.0 w/Bison exception',
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
+    obsoletedBy: [
+      'GPL-2.0 WITH Bison-exception-2.2',
+      'GPL-2.0-or-later WITH Bison-exception-2.2'
+    ],
     url: 'http://git.savannah.gnu.org/cgit/bison.git/tree/data/yacc.c?id=193d7c7054ba7197b0789e14965b739162319b5e#n141'
   },
   'GPL-2.0-with-classpath-exception': {
@@ -1682,6 +1723,10 @@ export const licenseIds = {
     name: 'GNU General Public License v2.0 w/Classpath exception',
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
+    obsoletedBy: [
+      'GPL-2.0 WITH Classpath-exception-2.0',
+      'GPL-2.0-or-later WITH Classpath-exception-2.0'
+    ],
     url: 'https://www.gnu.org/software/classpath/license.html'
   },
   'GPL-2.0-with-font-exception': {
@@ -1689,6 +1734,10 @@ export const licenseIds = {
     name: 'GNU General Public License v2.0 w/Font exception',
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
+    obsoletedBy: [
+      'GPL-2.0 WITH Font-exception-2.0',
+      'GPL-2.0-or-later+ WITH Font-exception-2.0'
+    ],
     url: 'https://www.gnu.org/licenses/gpl-faq.html#FontException'
   },
   'GPL-2.0-with-GCC-exception': {
@@ -1696,6 +1745,10 @@ export const licenseIds = {
     name: 'GNU General Public License v2.0 w/GCC Runtime Library exception',
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
+    obsoletedBy: [
+      'GPL-2.0 WITH GCC-exception-2.0',
+      'GPL-2.0-or-later WITH GCC-exception-2.0'
+    ],
     url: 'https://gcc.gnu.org/git/?p=gcc.git;a=blob;f=gcc/libgcc1.c;h=762f5143fc6eed57b6797c82710f3538aa52b40b;hb=cb143a3ce4fb417c68f5fa2691a1b1b1053dfba9#l10'
   },
   'GPL-2.0': {
@@ -1705,6 +1758,10 @@ export const licenseIds = {
     isOsiApproved: true,
     isDeprecated: true,
     deprecatedVersion: '3.0',
+    obsoletedBy: [
+      'GPL-2.0-only',
+      'GPL-2.0-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html'
   },
   'GPL-2.0+': {
@@ -1714,6 +1771,9 @@ export const licenseIds = {
     isOsiApproved: true,
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
+    obsoletedBy: [
+      'GPL-2.0-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html'
   },
   'GPL-3.0-only': {
@@ -1735,6 +1795,10 @@ export const licenseIds = {
     name: 'GNU General Public License v3.0 w/Autoconf exception',
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
+    obsoletedBy: [
+      'GPL-3.0 WITH Autoconf-exception-3.0',
+      'GPL-3.0-or-later WITH Autoconf-exception-3.0'
+    ],
     url: 'https://www.gnu.org/licenses/autoconf-exception-3.0.html'
   },
   'GPL-3.0-with-GCC-exception': {
@@ -1743,6 +1807,10 @@ export const licenseIds = {
     isOsiApproved: true,
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
+    obsoletedBy: [
+      'GPL-3.0 WITH GCC-exception-3.1',
+      'GPL-3.0-or-later WITH GCC-exception-3.1'
+    ],
     url: 'https://www.gnu.org/licenses/gcc-exception-3.1.html'
   },
   'GPL-3.0': {
@@ -1752,6 +1820,10 @@ export const licenseIds = {
     isOsiApproved: true,
     isDeprecated: true,
     deprecatedVersion: '3.0',
+    obsoletedBy: [
+      'GPL-3.0-only',
+      'GPL-3.0-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/gpl-3.0-standalone.html'
   },
   'GPL-3.0+': {
@@ -1761,6 +1833,9 @@ export const licenseIds = {
     isOsiApproved: true,
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
+    obsoletedBy: [
+      'GPL-3.0-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/gpl-3.0-standalone.html'
   },
   'gSOAP-1.3b': {
@@ -1871,7 +1946,7 @@ export const licenseIds = {
   'IPL-1.0': {
     spdx: 'IPL-1.0',
     name: 'IBM Public License v1.0',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'copyleft',
     modification: 'copyleft',
     isOsiApproved: true,
@@ -1880,7 +1955,7 @@ export const licenseIds = {
   ISC: {
     spdx: 'ISC',
     name: 'ISC License',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -1960,6 +2035,10 @@ export const licenseIds = {
     isOsiApproved: true,
     isDeprecated: true,
     deprecatedVersion: '3.0',
+    obsoletedBy: [
+      'LGPL-2.0-only',
+      'LGPL-2.0-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html'
   },
   'LGPL-2.0+': {
@@ -1968,6 +2047,9 @@ export const licenseIds = {
     isOsiApproved: true,
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
+    obsoletedBy: [
+      'LGPL-2.0-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html'
   },
   'LGPL-2.1-only': {
@@ -1990,6 +2072,10 @@ export const licenseIds = {
     isOsiApproved: true,
     isDeprecated: true,
     deprecatedVersion: '3.0',
+    obsoletedBy: [
+      'LGPL-2.1-only',
+      'LGPL-2.1-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html'
   },
   'LGPL-2.1+': {
@@ -1998,6 +2084,9 @@ export const licenseIds = {
     isOsiApproved: true,
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
+    obsoletedBy: [
+      'LGPL-2.1-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html'
   },
   'LGPL-3.0-only': {
@@ -2020,6 +2109,10 @@ export const licenseIds = {
     isOsiApproved: true,
     isDeprecated: true,
     deprecatedVersion: '3.0',
+    obsoletedBy: [
+      'LGPL-3.0-only',
+      'LGPL-3.0-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/lgpl-3.0-standalone.html'
   },
   'LGPL-3.0+': {
@@ -2028,6 +2121,9 @@ export const licenseIds = {
     isOsiApproved: true,
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
+    obsoletedBy: [
+      'LGPL-3.0-or-later'
+    ],
     url: 'https://www.gnu.org/licenses/lgpl-3.0-standalone.html'
   },
   LGPLLR: {
@@ -2132,7 +2228,7 @@ export const licenseIds = {
   'LPPL-1.3c': {
     spdx: 'LPPL-1.3c',
     name: 'LaTeX Project Public License v1.3c',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     modification: 'permissive',
     isOsiApproved: true,
@@ -2174,6 +2270,14 @@ export const licenseIds = {
   'MIT-0': {
     spdx: 'MIT-0',
     name: 'MIT No Attribution',
+    attribution: false,
+    linking: 'permissive',
+    distribution: 'permissive',
+    modification: 'permissive',
+    patentGrant: false,
+    privateUse: true,
+    sublicensing: 'permissive',
+    trademarkGrant: false,
     isOsiApproved: true,
     url: 'https://github.com/aws/mit-0'
   },
@@ -2218,7 +2322,7 @@ export const licenseIds = {
   MIT: {
     spdx: 'MIT',
     name: 'MIT License',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -2274,7 +2378,7 @@ export const licenseIds = {
   'MPL-2.0': {
     spdx: 'MPL-2.0',
     name: 'Mozilla Public License 2.0',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -2505,6 +2609,9 @@ export const licenseIds = {
     name: 'Nunit License',
     isDeprecated: true,
     deprecatedVersion: '3.0',
+    obsoletedBy: [
+      'zlib-acknowledgement'
+    ],
     url: 'https://fedoraproject.org/wiki/Licensing/Nunit'
   },
   'O-UDA-1.0': {
@@ -2732,7 +2839,7 @@ export const licenseIds = {
   OpenSSL: {
     spdx: 'OpenSSL',
     name: 'OpenSSL License',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     modification: 'permissive',
     isOsiApproved: false,
@@ -2848,7 +2955,7 @@ export const licenseIds = {
   'PSF-2.0': {
     spdx: 'PSF-2.0',
     name: 'Python Software Foundation License 2.0',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -2880,7 +2987,7 @@ export const licenseIds = {
   'Python-2.0': {
     spdx: 'Python-2.0',
     name: 'Python License 2.0',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -3111,6 +3218,9 @@ export const licenseIds = {
     isOsiApproved: false,
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
+    obsoletedBy: [
+      'SMLNJ'
+    ],
     url: 'http://www.smlnj.org//license.html'
   },
   'SugarCRM-1.1.3': {
@@ -3207,7 +3317,7 @@ export const licenseIds = {
   Unlicense: {
     spdx: 'Unlicense',
     name: 'The Unlicense',
-    preserveCopyright: false,
+    attribution: false,
     linking: 'publicDomain',
     distribution: 'publicDomain',
     modification: 'publicDomain',
@@ -3260,7 +3370,7 @@ export const licenseIds = {
   W3C: {
     spdx: 'W3C',
     name: 'W3C Software Notice and License (2002-12-31)',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     modification: 'permissive',
     isOsiApproved: true,
@@ -3281,7 +3391,7 @@ export const licenseIds = {
   WTFPL: {
     spdx: 'WTFPL',
     name: 'Do What The F*ck You Want To Public License',
-    preserveCopyright: false,
+    attribution: false,
     linking: 'publicDomain',
     distribution: 'publicDomain',
     modification: 'publicDomain',
@@ -3299,6 +3409,9 @@ export const licenseIds = {
     isOsiApproved: true,
     isDeprecated: true,
     deprecatedVersion: '2.0rc2',
+    obsoletedBy: [
+      'GPL-2.0-or-later WITH WxWindows-exception-3.1'
+    ],
     url: 'https://opensource.org/licenses/WXwindows'
   },
   'X11-distribute-modifications-variant': {
@@ -3311,7 +3424,7 @@ export const licenseIds = {
   X11: {
     spdx: 'X11',
     name: 'X11 License',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -3332,7 +3445,7 @@ export const licenseIds = {
   'XFree86-1.1': {
     spdx: 'XFree86-1.1',
     name: 'XFree86 License 1.1',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     modification: 'permissive',
     magnetUri: 'magnet:?xt=urn:btih:12f2ec9e8de2a3b0002a33d518d6010cc8ab2ae9&dn=xfree86.txt',
@@ -3408,7 +3521,7 @@ export const licenseIds = {
   Zlib: {
     spdx: 'Zlib',
     name: 'zlib License',
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     modification: 'permissive',
     isOsiApproved: true,

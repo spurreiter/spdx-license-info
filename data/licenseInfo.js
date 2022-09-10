@@ -17,23 +17,23 @@ export const licenseInfo = {
     url: 'http://landley.net/toybox/license.html'
   },
   AAL: {
-    preserveCopyright: true,
+    attribution: true,
     url: 'https://opensource.org/licenses/attribution'
   },
   Abstyles: {
-    preserveCopyright: true,
+    attribution: true,
     url: 'https://fedoraproject.org/wiki/Licensing/Abstyles'
   },
   'Adobe-2006': {
-    preserveCopyright: false,
+    attribution: false,
     url: 'https://fedoraproject.org/wiki/Licensing/AdobeLicense'
   },
   'Adobe-Glyph': {
-    preserveCopyright: true,
+    attribution: true,
     url: 'https://fedoraproject.org/wiki/Licensing/MIT#AdobeGlyph'
   },
   ADSL: {
-    preserveCopyright: true,
+    attribution: true,
     url: 'https://fedoraproject.org/wiki/Licensing/AmazonDigitalServicesLicense'
   },
   'AFL-1.1': {
@@ -49,7 +49,7 @@ export const licenseInfo = {
     url: 'http://opensource.linux-mirror.org/licenses/afl-2.1.txt'
   },
   'AFL-3.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -75,7 +75,7 @@ export const licenseInfo = {
     url: 'https://www.gnu.org/licenses/agpl.txt'
   },
   'AGPL-3.0-or-later': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'copyleft',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -86,7 +86,7 @@ export const licenseInfo = {
     url: 'https://www.gnu.org/licenses/agpl.txt'
   },
   'AGPL-3.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'copyleft',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -122,7 +122,7 @@ export const licenseInfo = {
     url: 'http://apache.org/licenses/LICENSE-1.1'
   },
   'Apache-2.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -152,7 +152,7 @@ export const licenseInfo = {
     url: 'http://www.samurajdata.se/opensource/mirror/licenses/apsl.php'
   },
   'APSL-2.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: undefined,
     modification: 'limited',
@@ -175,7 +175,7 @@ export const licenseInfo = {
     url: 'https://opensource.org/licenses/Artistic-1.0'
   },
   'Artistic-2.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'restricted',
     distribution: 'restricted',
     modification: 'restricted',
@@ -196,7 +196,7 @@ export const licenseInfo = {
     url: 'https://fedoraproject.org/wiki/Licensing/Barr'
   },
   Beerware: {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -228,7 +228,7 @@ export const licenseInfo = {
     url: 'https://svnweb.freebsd.org/base/head/include/ifaddrs.h?revision=326823'
   },
   'BSD-2-Clause-FreeBSD': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -250,7 +250,7 @@ export const licenseInfo = {
     url: 'http://www.freebsd.org/copyright/freebsd-license.html'
   },
   'BSD-2-Clause': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -289,7 +289,7 @@ export const licenseInfo = {
     url: 'https://www.open-mpi.org/community/license.php'
   },
   'BSD-3-Clause': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -316,7 +316,7 @@ export const licenseInfo = {
     url: 'https://github.com/robbiehanson/CocoaHTTPServer/blob/master/LICENSE.txt'
   },
   'BSL-1.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -379,7 +379,7 @@ export const licenseInfo = {
     url: 'https://creativecommons.org/licenses/by/3.0/us/legalcode'
   },
   'CC-BY-3.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -390,7 +390,7 @@ export const licenseInfo = {
     url: 'https://creativecommons.org/licenses/by/3.0/legalcode'
   },
   'CC-BY-4.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -413,7 +413,7 @@ export const licenseInfo = {
     url: 'https://creativecommons.org/licenses/by-nc/3.0/de/legalcode'
   },
   'CC-BY-NC-3.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -424,7 +424,7 @@ export const licenseInfo = {
     url: 'https://creativecommons.org/licenses/by-nc/3.0/legalcode'
   },
   'CC-BY-NC-4.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -522,7 +522,7 @@ export const licenseInfo = {
     url: 'https://creativecommons.org/licenses/by-sa/3.0/de/legalcode'
   },
   'CC-BY-SA-3.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'copyleft',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -533,7 +533,7 @@ export const licenseInfo = {
     url: 'https://creativecommons.org/licenses/by-sa/3.0/legalcode'
   },
   'CC-BY-SA-4.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'copyleft',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -547,7 +547,7 @@ export const licenseInfo = {
     url: '\nhttps://creativecommons.org/licenses/publicdomain/'
   },
   'CC0-1.0': {
-    preserveCopyright: false,
+    attribution: false,
     linking: 'publicdomain',
     distribution: 'publicdomain',
     modification: 'publicdomain',
@@ -559,7 +559,7 @@ export const licenseInfo = {
     url: 'https://creativecommons.org/publicdomain/zero/1.0/legalcode'
   },
   'CDDL-1.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: undefined,
     modification: 'restricted',
@@ -592,7 +592,7 @@ export const licenseInfo = {
     url: 'http://www.cecill.info/licences/Licence_CeCILL_V2-en.html'
   },
   'CECILL-2.1': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -655,7 +655,7 @@ export const licenseInfo = {
     url: 'https://opensource.org/licenses/CPAL-1.0'
   },
   'CPL-1.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: undefined,
     modification: 'copyleft',
@@ -708,7 +708,7 @@ export const licenseInfo = {
     url: 'https://fedoraproject.org/wiki/Licensing/dvipdfm'
   },
   'ECL-1.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: undefined,
     modification: 'permissive',
@@ -743,7 +743,7 @@ export const licenseInfo = {
     url: 'https://epics.anl.gov/license/open.php'
   },
   'EPL-1.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -755,7 +755,7 @@ export const licenseInfo = {
     url: 'http://www.eclipse.org/legal/epl-v10.html'
   },
   'EPL-2.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -781,7 +781,7 @@ export const licenseInfo = {
     url: 'https://joinup.ec.europa.eu/software/page/eupl/licence-eupl'
   },
   'EUPL-1.2': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -1022,7 +1022,7 @@ export const licenseInfo = {
     url: 'https://opensource.org/licenses/IPA'
   },
   'IPL-1.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'copyleft',
     distribution: undefined,
     modification: 'copyleft',
@@ -1033,7 +1033,7 @@ export const licenseInfo = {
     url: 'https://opensource.org/licenses/IPL-1.0'
   },
   ISC: {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -1157,7 +1157,7 @@ export const licenseInfo = {
     url: 'http://www.latex-project.org/lppl/lppl-1-3a.txt'
   },
   'LPPL-1.3c': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: undefined,
     modification: 'permissive',
@@ -1183,6 +1183,14 @@ export const licenseInfo = {
     url: 'https://opensource.org/licenses/MirOS'
   },
   'MIT-0': {
+    attribution: false,
+    linking: 'permissive',
+    distribution: 'permissive',
+    modification: 'permissive',
+    patentGrant: false,
+    privateUse: true,
+    sublicensing: 'permissive',
+    trademarkGrant: false,
     url: 'https://github.com/aws/mit-0'
   },
   'MIT-advertising': {
@@ -1204,7 +1212,7 @@ export const licenseInfo = {
     url: 'https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING'
   },
   MIT: {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -1236,7 +1244,7 @@ export const licenseInfo = {
     url: 'https://www.mozilla.org/MPL/2.0/'
   },
   'MPL-2.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'copyleft',
     modification: 'copyleft',
@@ -1458,7 +1466,7 @@ export const licenseInfo = {
     url: 'https://fedoraproject.org/wiki/Licensing/Open_Market_License'
   },
   OpenSSL: {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: undefined,
     modification: 'permissive',
@@ -1520,7 +1528,7 @@ export const licenseInfo = {
     url: 'http://www.postgresql.org/about/licence'
   },
   'PSF-2.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -1540,7 +1548,7 @@ export const licenseInfo = {
     url: 'https://www.python.org/download/releases/2.0.1/license/'
   },
   'Python-2.0': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -1700,7 +1708,7 @@ export const licenseInfo = {
     url: 'http://www.unicode.org/copyright.html'
   },
   Unlicense: {
-    preserveCopyright: false,
+    attribution: false,
     linking: 'publicDomain',
     distribution: 'publicDomain',
     modification: 'publicDomain',
@@ -1731,7 +1739,7 @@ export const licenseInfo = {
     url: 'https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document'
   },
   W3C: {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: undefined,
     modification: 'permissive',
@@ -1748,7 +1756,7 @@ export const licenseInfo = {
     url: 'https://fedoraproject.org/wiki/Licensing/Wsuipa'
   },
   WTFPL: {
-    preserveCopyright: false,
+    attribution: false,
     linking: 'publicDomain',
     distribution: 'publicDomain',
     modification: 'publicDomain',
@@ -1766,7 +1774,7 @@ export const licenseInfo = {
     url: 'https://github.com/mirror/ncurses/blob/master/COPYING'
   },
   X11: {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: 'permissive',
     modification: 'permissive',
@@ -1781,7 +1789,7 @@ export const licenseInfo = {
     url: 'https://fedoraproject.org/wiki/Licensing/Xerox'
   },
   'XFree86-1.1': {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: undefined,
     modification: 'permissive',
@@ -1826,7 +1834,7 @@ export const licenseInfo = {
     url: 'https://fedoraproject.org/wiki/Licensing/ZlibWithAcknowledgement'
   },
   Zlib: {
-    preserveCopyright: true,
+    attribution: true,
     linking: 'permissive',
     distribution: undefined,
     modification: 'permissive',

@@ -19,7 +19,7 @@ console.log(licenseIds.Unlicense)
 //> {
 //>   spdx: 'Unlicense',
 //>   name: 'The Unlicense',
-//>   preserveCopyright: false,
+//>   attribution: false,
 //>   linking: 'publicDomain',
 //>   distribution: 'publicDomain',
 //>   modification: 'publicDomain',

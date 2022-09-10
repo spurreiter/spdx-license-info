@@ -8,8 +8,8 @@
 export type Term = 'publicDomain'|'permissive'|'copyleft'|'restricted'|'illicit'
 
 export interface LicenseTerms {
-  /** copyright notice must be preserved in distribution or modified work or copy*/
-  preserveCopyright?: boolean
+  /** copyright notice must be attributed and preserved in distribution or modified work or copy*/
+  attribution?: boolean
   /** linking of the licensed code with code licensed under a different license (e.g. when the code is provided as a library) */
   linking?: Term
   /** distribution of the code to third parties */
