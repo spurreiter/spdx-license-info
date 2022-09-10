@@ -34,9 +34,11 @@ export interface LicenseTerms {
   note?: string
 }
 
+export type SPDXcode = string
+
 export interface LicenseInfo extends LicenseTerms {
   /** SPDX code */
-  spdx: string
+  spdx: SPDXcode
   /** license name */
   name: string
   /** license url */
@@ -49,6 +51,8 @@ export interface LicenseInfo extends LicenseTerms {
   deprecatedVersion?: string
   /** ?? */
   listVersionAdded?: string
+  /** license obsolete, use referenced SPDXcode(s) */
+  obsoletedBy?: SPDXcode[]
 }
 
 export interface LicenseIds {
