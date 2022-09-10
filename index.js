@@ -8,9 +8,12 @@ export const licenseIds = {
   '0BSD': {
     spdx: '0BSD',
     name: 'BSD Zero Clause License',
+    attribution: false,
+    linking: 'publicDomain',
     distribution: 'publicDomain',
     modification: 'publicDomain',
-    isPublicDomain: true,
+    sublicensing: 'publicDomain',
+    privateUse: true,
     isOsiApproved: true,
     url: 'http://landley.net/toybox/license.html'
   },

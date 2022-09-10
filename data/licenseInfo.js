@@ -11,9 +11,14 @@
  */
 export const licenseInfo = {
   '0BSD': {
+    attribution: false,
+    linking: 'publicDomain',
     distribution: 'publicDomain',
     modification: 'publicDomain',
-    isPublicDomain: true,
+    sublicensing: 'publicDomain',
+    patentGrant: undefined,
+    privateUse: true,
+    trademarkGrant: undefined,
     url: 'http://landley.net/toybox/license.html'
   },
   AAL: {
