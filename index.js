@@ -112,7 +112,6 @@ export const licenseIds = {
     spdx: 'AGPL-1.0',
     name: 'Affero General Public License v1.0',
     isOsiApproved: false,
-    isDeprecated: true,
     deprecatedVersion: '3.1',
     obsoletedBy: [
       'AGPL-1.0-only',
@@ -147,7 +146,6 @@ export const licenseIds = {
     privateUse: true,
     magnetUri: 'magnet:?xt=urn:btih:0b31508aeb0634b347b8270c7bee4d411b5d4109&dn=agpl-3.0.txt',
     isOsiApproved: true,
-    isDeprecated: true,
     deprecatedVersion: '3.0',
     obsoletedBy: [
       'AGPL-3.0-only',
@@ -396,7 +394,6 @@ export const licenseIds = {
     trademarkGrant: false,
     magnetUri: 'magnet:?xt=urn:btih:87f119ba0b429ba17a44b4bffcab33165ebdacc0&dn=freebsd.txt',
     isOsiApproved: false,
-    isDeprecated: true,
     deprecatedVersion: '3.10',
     url: 'http://www.freebsd.org/copyright/freebsd-license.html'
   },
@@ -404,7 +401,6 @@ export const licenseIds = {
     spdx: 'BSD-2-Clause-NetBSD',
     name: 'BSD 2-Clause NetBSD License',
     isOsiApproved: false,
-    isDeprecated: true,
     deprecatedVersion: '3.9',
     obsoletedBy: [
       'BSD-2-Clause'
@@ -569,7 +565,6 @@ export const licenseIds = {
     spdx: 'bzip2-1.0.5',
     name: 'bzip2 and libbzip2 License v1.0.5',
     isOsiApproved: false,
-    isDeprecated: true,
     deprecatedVersion: '3.16',
     url: 'https://sourceware.org/bzip2/1.0.5/bzip2-manual-1.0.5.html'
   },
@@ -1281,7 +1276,6 @@ export const licenseIds = {
   'eCos-2.0': {
     spdx: 'eCos-2.0',
     name: 'eCos license version 2.0',
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     obsoletedBy: [
       'GPL-2.0-or-later WITH eCos-exception-2.0'
@@ -1509,7 +1503,6 @@ export const licenseIds = {
     spdx: 'GFDL-1.1',
     name: 'GNU Free Documentation License v1.1',
     isOsiApproved: false,
-    isDeprecated: true,
     deprecatedVersion: '3.0',
     obsoletedBy: [
       'GFDL-1.1-only',
@@ -1557,7 +1550,6 @@ export const licenseIds = {
     spdx: 'GFDL-1.2',
     name: 'GNU Free Documentation License v1.2',
     isOsiApproved: false,
-    isDeprecated: true,
     deprecatedVersion: '3.0',
     obsoletedBy: [
       'GFDL-1.2-only',
@@ -1605,7 +1597,6 @@ export const licenseIds = {
     spdx: 'GFDL-1.3',
     name: 'GNU Free Documentation License v1.3',
     isOsiApproved: false,
-    isDeprecated: true,
     deprecatedVersion: '3.0',
     obsoletedBy: [
       'GFDL-1.3-only',
@@ -1666,7 +1657,6 @@ export const licenseIds = {
     spdx: 'GPL-1.0',
     name: 'GNU General Public License v1.0 only',
     isOsiApproved: false,
-    isDeprecated: true,
     deprecatedVersion: '3.0',
     obsoletedBy: [
       'GPL-1.0-only',
@@ -1677,7 +1667,6 @@ export const licenseIds = {
   'GPL-1.0+': {
     spdx: 'GPL-1.0+',
     name: 'GNU General Public License v1.0 or later',
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     isOsiApproved: false,
     obsoletedBy: [
@@ -1702,7 +1691,6 @@ export const licenseIds = {
   'GPL-2.0-with-autoconf-exception': {
     spdx: 'GPL-2.0-with-autoconf-exception',
     name: 'GNU General Public License v2.0 w/Autoconf exception',
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     obsoletedBy: [
       'GPL-2.0 WITH Autoconf-exception-2.0',
@@ -1713,7 +1701,6 @@ export const licenseIds = {
   'GPL-2.0-with-bison-exception': {
     spdx: 'GPL-2.0-with-bison-exception',
     name: 'GNU General Public License v2.0 w/Bison exception',
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     obsoletedBy: [
       'GPL-2.0 WITH Bison-exception-2.2',
@@ -1724,7 +1711,6 @@ export const licenseIds = {
   'GPL-2.0-with-classpath-exception': {
     spdx: 'GPL-2.0-with-classpath-exception',
     name: 'GNU General Public License v2.0 w/Classpath exception',
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     obsoletedBy: [
       'GPL-2.0 WITH Classpath-exception-2.0',
@@ -1735,7 +1721,6 @@ export const licenseIds = {
   'GPL-2.0-with-font-exception': {
     spdx: 'GPL-2.0-with-font-exception',
     name: 'GNU General Public License v2.0 w/Font exception',
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     obsoletedBy: [
       'GPL-2.0 WITH Font-exception-2.0',
@@ -1746,7 +1731,6 @@ export const licenseIds = {
   'GPL-2.0-with-GCC-exception': {
     spdx: 'GPL-2.0-with-GCC-exception',
     name: 'GNU General Public License v2.0 w/GCC Runtime Library exception',
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     obsoletedBy: [
       'GPL-2.0 WITH GCC-exception-2.0',
@@ -1759,7 +1743,6 @@ export const licenseIds = {
     name: 'GNU General Public License v2.0 only',
     magnetUri: 'magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&dn=gpl-2.0.txt',
     isOsiApproved: true,
-    isDeprecated: true,
     deprecatedVersion: '3.0',
     obsoletedBy: [
       'GPL-2.0-only',
@@ -1772,7 +1755,6 @@ export const licenseIds = {
     name: 'GNU General Public License v2.0 or later',
     magnetUri: 'magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&dn=gpl-2.0.txt',
     isOsiApproved: true,
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     obsoletedBy: [
       'GPL-2.0-or-later'
@@ -1796,7 +1778,6 @@ export const licenseIds = {
   'GPL-3.0-with-autoconf-exception': {
     spdx: 'GPL-3.0-with-autoconf-exception',
     name: 'GNU General Public License v3.0 w/Autoconf exception',
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     obsoletedBy: [
       'GPL-3.0 WITH Autoconf-exception-3.0',
@@ -1808,7 +1789,6 @@ export const licenseIds = {
     spdx: 'GPL-3.0-with-GCC-exception',
     name: 'GNU General Public License v3.0 w/GCC Runtime Library exception',
     isOsiApproved: true,
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     obsoletedBy: [
       'GPL-3.0 WITH GCC-exception-3.1',
@@ -1821,7 +1801,6 @@ export const licenseIds = {
     name: 'GNU General Public License v3.0 only',
     magnetUri: 'magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt',
     isOsiApproved: true,
-    isDeprecated: true,
     deprecatedVersion: '3.0',
     obsoletedBy: [
       'GPL-3.0-only',
@@ -1834,7 +1813,6 @@ export const licenseIds = {
     name: 'GNU General Public License v3.0 or later',
     magnetUri: 'magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt',
     isOsiApproved: true,
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     obsoletedBy: [
       'GPL-3.0-or-later'
@@ -2036,7 +2014,6 @@ export const licenseIds = {
     spdx: 'LGPL-2.0',
     name: 'GNU Library General Public License v2 only',
     isOsiApproved: true,
-    isDeprecated: true,
     deprecatedVersion: '3.0',
     obsoletedBy: [
       'LGPL-2.0-only',
@@ -2048,7 +2025,6 @@ export const licenseIds = {
     spdx: 'LGPL-2.0+',
     name: 'GNU Library General Public License v2 or later',
     isOsiApproved: true,
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     obsoletedBy: [
       'LGPL-2.0-or-later'
@@ -2073,7 +2049,6 @@ export const licenseIds = {
     name: 'GNU Lesser General Public License v2.1 only',
     magnetUri: 'magnet:?xt=urn:btih:5de60da917303dbfad4f93fb1b985ced5a89eac2&dn=lgpl-2.1.txt',
     isOsiApproved: true,
-    isDeprecated: true,
     deprecatedVersion: '3.0',
     obsoletedBy: [
       'LGPL-2.1-only',
@@ -2083,9 +2058,8 @@ export const licenseIds = {
   },
   'LGPL-2.1+': {
     spdx: 'LGPL-2.1+',
-    name: 'GNU Library General Public License v2.1 or later',
+    name: 'GNU Lesser General Public License v2.1 or later',
     isOsiApproved: true,
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     obsoletedBy: [
       'LGPL-2.1-or-later'
@@ -2110,7 +2084,6 @@ export const licenseIds = {
     name: 'GNU Lesser General Public License v3.0 only',
     magnetUri: 'magnet:?xt=urn:btih:0ef1b8170b3b615170ff270def6427c317705f85&dn=lgpl-3.0.txt',
     isOsiApproved: true,
-    isDeprecated: true,
     deprecatedVersion: '3.0',
     obsoletedBy: [
       'LGPL-3.0-only',
@@ -2122,7 +2095,6 @@ export const licenseIds = {
     spdx: 'LGPL-3.0+',
     name: 'GNU Lesser General Public License v3.0 or later',
     isOsiApproved: true,
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     obsoletedBy: [
       'LGPL-3.0-or-later'
@@ -2610,7 +2582,6 @@ export const licenseIds = {
   Nunit: {
     spdx: 'Nunit',
     name: 'Nunit License',
-    isDeprecated: true,
     deprecatedVersion: '3.0',
     obsoletedBy: [
       'zlib-acknowledgement'
@@ -3059,7 +3030,7 @@ export const licenseIds = {
     spdx: 'Ruby',
     name: 'Ruby License',
     isOsiApproved: false,
-    url: 'http://www.ruby-lang.org/en/LICENSE.txt'
+    url: 'https://www.ruby-lang.org/en/about/license.txt'
   },
   'SAX-PD': {
     spdx: 'SAX-PD',
@@ -3219,12 +3190,11 @@ export const licenseIds = {
     spdx: 'StandardML-NJ',
     name: 'Standard ML of New Jersey License',
     isOsiApproved: false,
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     obsoletedBy: [
       'SMLNJ'
     ],
-    url: 'http://www.smlnj.org//license.html'
+    url: 'https://www.smlnj.org/license.html'
   },
   'SugarCRM-1.1.3': {
     spdx: 'SugarCRM-1.1.3',
@@ -3309,13 +3279,13 @@ export const licenseIds = {
     name: 'Unicode License Agreement - Data Files and Software (2016)',
     isOsiApproved: true,
     listVersionAdded: '2.6',
-    url: 'http://www.unicode.org/copyright.html'
+    url: 'https://www.unicode.org/license.txt'
   },
   'Unicode-TOU': {
     spdx: 'Unicode-TOU',
     name: 'Unicode Terms of Use',
     isOsiApproved: false,
-    url: 'http://www.unicode.org/copyright.html'
+    url: 'http://web.archive.org/web/20140704074106/http://www.unicode.org/copyright.html'
   },
   Unlicense: {
     spdx: 'Unlicense',
@@ -3410,7 +3380,6 @@ export const licenseIds = {
     spdx: 'wxWindows',
     name: 'wxWindows Library License',
     isOsiApproved: true,
-    isDeprecated: true,
     deprecatedVersion: '2.0rc2',
     obsoletedBy: [
       'GPL-2.0-or-later WITH WxWindows-exception-3.1'

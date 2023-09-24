@@ -2,7 +2,7 @@
 
 > Information on [SPDX license](https://spdx.org/licenses/) terms.
 
-Uses [SPDX License List][] version 3.18 - 2022-08-11
+Uses [SPDX License List][] version 3.21 - 2023-06-18
 
 ## install 
 
