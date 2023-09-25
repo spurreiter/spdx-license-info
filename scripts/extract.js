@@ -1,7 +1,7 @@
 import { fileURLToPath } from 'url'
 import { dirname, resolve } from 'path'
 import fsp from 'fs/promises'
-import glob from 'glob'
+import { glob } from 'glob'
 import { promisify } from 'util'
 import { toJs } from 'xml-vs-js'
 import { licenseInfo } from '../data/licenseInfo.js'
@@ -14,31 +14,38 @@ const difference = (keys, otherKeys) => {
   return Object.keys(keys).filter((value) => !values.includes(value))
 }
 
-const toText = text => Array.isArray(text) ? text.join('') : text
+const toText = (text) => (Array.isArray(text) ? text.join('') : text)
 
-const keysToBool = obj => !obj
-  ? {}
-  : Object.entries(obj).reduce((o, [k, v]) => {
-    if (v === 'true') {
-      o[k] = true
-    } else if (v === 'false') {
-      o[k] = false
-    } else {
-      o[k] = v
-    }
-    return o
-  }, {})
+const keysToBool = (obj) =>
+  !obj
+    ? {}
+    : Object.entries(obj).reduce((o, [k, v]) => {
+      if (v === 'true') {
+        o[k] = true
+      } else if (v === 'false') {
+        o[k] = false
+      } else {
+        o[k] = v
+      }
+      return o
+    }, {})
 
-const obsoletedByToArray = (obsoletedBy) => Array.isArray(obsoletedBy)
-  ? obsoletedBy.map(item => item._text)
-  : obsoletedBy && [obsoletedBy._text]
+const obsoletedByToArray = (obsoletedBy) =>
+  Array.isArray(obsoletedBy)
+    ? obsoletedBy.map((item) => item._text)
+    : obsoletedBy && [obsoletedBy._text]
 
 async function extractLicenseInfo (filename) {
   const str = await fsp.readFile(filename, 'utf8')
   const obj = await promisify(toJs)(str, { elems: false })
   const info = keysToBool(obj?.SPDXLicenseCollection?.license?._attrs)
-  const obsoletedBy = obsoletedByToArray(obj?.SPDXLicenseCollection?.license?.obsoletedBys?.obsoletedBy)
-  const url = toText(obj?.SPDXLicenseCollection?.license?.crossRefs?.crossRef?.[0]?._text || obj?.SPDXLicenseCollection?.license?.crossRefs?.crossRef?._text)
+  const obsoletedBy = obsoletedByToArray(
+    obj?.SPDXLicenseCollection?.license?.obsoletedBys?.obsoletedBy
+  )
+  const url = toText(
+    obj?.SPDXLicenseCollection?.license?.crossRefs?.crossRef?.[0]?._text ||
+      obj?.SPDXLicenseCollection?.license?.crossRefs?.crossRef?._text
+  )
   return { ...info, obsoletedBy, url }
 }
 
@@ -58,7 +65,9 @@ async function writeLicenseIdsJson (licenseIds, filename) {
 }
 
 async function main () {
-  const licenseFiles = await promisify(glob)(resolve(__dirname, '../assets/license-list-XML/src/*.xml'))
+  const licenseFiles = await promisify(glob)(
+    resolve(__dirname, '../assets/license-list-XML/src/*.xml')
+  )
   const finalFile = resolve(__dirname, '../index.js')
   const finalFileJson = resolve(__dirname, '../licenses.json')
 
