@@ -19,27 +19,31 @@
   "license": "Unlicense",
   "author": "spurreiter",
   "type": "module",
-  "main": "index.js",
-  "types": "types.d.ts",
+  "main": "src/index.js",
+  "types": "types",
   "files": [
     "*.js",
     "*.json",
     "*.d.ts"
   ],
   "scripts": {
-    "build": "bash scripts/build.sh",
-    "clean": "rm -rf assets/license-list-XML",
-    "lint": "eslint --ext .js .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node scripts/build.js",
+    "ci": "npm-run-all build lint coverage types",
+    "lint": "eslint --fix --ext .js .",
+    "coverage": "c8 -r text npm t",
+    "test": "mocha",
+    "types": "rm -rf types; tsc && cp src/*.d.ts types"
   },
-  "dependencies": {},
   "devDependencies": {
-    "eslint": "^8.50.0",
+    "c8": "^8.0.1",
+    "eslint": "^8.56.0",
     "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-n": "^16.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.0",
     "eslint-plugin-promise": "^6.1.1",
-    "glob": "^10.3.7",
-    "xml-vs-js": "^2.1.0"
+    "glob": "^10.3.10",
+    "mocha": "^10.2.0",
+    "npm-run-all2": "^6.1.1",
+    "typescript": "^5.3.3"
   }
 }

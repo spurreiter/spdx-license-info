@@ -1,0 +1,10 @@
+export { licenseIds } from "./licenseIds.js";
+export { licenseTexts } from "./licenseTexts.js";
+export { exceptionIds } from "./exceptionIds.js";
+export type Term = import('./types').Term;
+export type LicenseTerms = import('./types').LicenseTerms;
+export type SPDXcode = import('./types').SPDXcode;
+export type LicenseInfo = import('./types').LicenseInfo;
+export type LicenseIds = import('./types').LicenseIds;
+export { parse, sanitize, UNKNOWN } from "./sanitize.js";
+export { isLicenseId, isDeprecatedLicenseId, isExceptionId, isDeprecatedExeptionId } from "./checks.js";
